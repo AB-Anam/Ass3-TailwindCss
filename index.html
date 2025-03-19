@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barnHouse</title>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c25455ffbc.js" crossorigin="anonymous"></script>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                'barn-primary': '#ABEF5F',
+                'grey': 'rgba(255, 255, 255, 0)'
+            }
+            }
+        }
+        }
+    </script>
+
+</head>
+<body>
+  <section class="w-full bg-gradient-to-b from-slate-200 to-white">
+     <!-- Header Section -->
+     <header class=" mx-auto px-6 lg:px-20 " >
+          <div class="navbar pt-4 mb-10">
+              <div class="navbar-start flex">
+               <span class="text-sm px-2 py-1 rounded-full origin-center -rotate-45 bg-barn-primary font-extralight"><i class="fa-solid fa-arrow-right"></i></span>
+                <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
+              </div>
+              <div class="navbar-center hidden lg:flex sm:hidden">
+                <ul class="menu menu-horizontal px-1 text-sm font-semibold text-gray-500">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+                 
+                
+              </div>
+              <div class="hidden md:block navbar-end lg:flex gap-6 ml-24 ">
+                <a><span class="px-3.5 py-3 rounded-full bg-white"><i class="fa-solid fa-magnifying-glass"></i></span></a>
+                <a><span class="p-3 rounded-full bg-white"><i class="fa-solid fa-cart-shopping"></i></span></a>
+                <a class="btn rounded-full bg-barn-primary font-bold">Book Consult
+                  <span class="text-sm px-2 py-1 rounded-full text-white bg-slate-900 origin-center -rotate-45 font-extralight"><i class="fa-solid fa-arrow-right"></i></span>
+                </i></a>
+              </div>
+              <div class="navbar-end lg:hidden">
+                <span class="px-3.5 py-2.5 text-xl bg-white rounded-full"><i class="fa-solid fa-bars"></i></span>
+              </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   </section>
+   <main>
+
+   </main>
+   <footer>
+
+   </footer>
+  </main>
+   
+</body>
+</html>
