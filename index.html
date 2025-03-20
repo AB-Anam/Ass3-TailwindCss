@@ -26,7 +26,9 @@
             extend: {
             colors: {
                 'barn-primary': '#ABEF5F',
-                'grey': 'rgba(255, 255, 255, 0)'
+                'grey': 'rgba(255, 255, 255, 0)',
+                'grey6': '#212121'
+                
             }
             }
         }
@@ -35,10 +37,10 @@
 
 </head>
 <body>
-  <section class="w-full bg-gradient-to-b from-slate-200 to-white">
+  <section class="w-full bg-gradient-to-b from-slate-200 to-white mb-10">
      <!-- Header Section -->
-     <header class=" mx-auto px-6 lg:px-20 " >
-          <div class="navbar pt-4 mb-10">
+     <header class=" mx-auto px-2 lg:px-20 " >
+          <div class="navbar pt-4 mb-1">
               <div class="navbar-start flex">
                <span class="text-sm px-2 py-1 rounded-full origin-center -rotate-45 bg-barn-primary font-extralight"><i class="fa-solid fa-arrow-right"></i></span>
                 <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
@@ -51,8 +53,6 @@
                   <li><a>Blogs</a></li>
                   <li><a>Contact Us</a></li>
                 </ul>
-                 
-                
               </div>
               <div class="hidden md:block navbar-end lg:flex gap-6 ml-24 ">
                 <a><span class="px-3.5 py-3 rounded-full bg-white"><i class="fa-solid fa-magnifying-glass"></i></span></a>
@@ -67,15 +67,33 @@
             </div>
          </nav>
       </div>
+      <section class=" mx-auto px-6 lg:px-20 grid justify-items-center" >
+        
+            <img class="object-contain max-w-full lg:max-h-72"  src="./assets/banner.png" alt="">
+          
+          <div class="grid items-center">
+            <h3 class="text-center font-bold lg:text-6xl text-grey6 mb-4">A barn house of this design has a <br> striking appearance</h3>
+            <p class="text-center text-sm font-normal text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern sophistication, 
+              featuring weathered wood, sleek metal <br class="hidden lg:block"> accents, and large windows that flood the space 
+              with natural light.</p>
+              <div class="lg:flex justify-center mt-6 lg:mt-3">
+                <a class="btn rounded-full bg-gradient-to-r from-lime-200 to-lime-100 
+                w-full lg:w-40 font-bold border-lime-300">
+                 <span class="z-10 text-black">View Details</span>
+                 <span class="z-20 text-sm px-2 py-1 rounded-full bg-barn-primary 
+                 opacity-100 origin-center -rotate-45 text-black">
+                   <i class="fa-solid fa-arrow-right"></i></span>
+               </i></a>
+              </div>
+          </div>
+      </section>
    </header>
    </section>
-   <main>
+    <main class="">
 
-   </main>
-   <footer>
+    </main>
+    <footer>
 
-   </footer>
-  </main>
-   
+    </footer>
 </body>
 </html>
