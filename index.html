@@ -27,7 +27,8 @@
             colors: {
                 'barn-primary': '#ABEF5F',
                 'grey': 'rgba(255, 255, 255, 0)',
-                'grey6': '#212121'
+                'grey6': '#212121',
+                'white-somke': '#F4F4F4'
                 
             }
             }
@@ -36,10 +37,11 @@
     </script>
 
 </head>
-<body>
+<body class="font-manrope">
   <section class="w-full bg-gradient-to-b from-slate-200 to-white mb-10">
      <!-- Header Section -->
      <header class=" mx-auto px-2 lg:px-20 " >
+      <!-- Navbar -->
           <div class="navbar pt-4 mb-1">
               <div class="navbar-start flex">
                <span class="text-sm px-2 py-1 rounded-full origin-center -rotate-45 bg-barn-primary font-extralight"><i class="fa-solid fa-arrow-right"></i></span>
@@ -67,12 +69,13 @@
             </div>
          </nav>
       </div>
+      <!-- Banner Section -->
       <section class=" mx-auto px-6 lg:px-20 grid justify-items-center" >
         
             <img class="object-contain max-w-full lg:max-h-72"  src="./assets/banner.png" alt="">
           
           <div class="grid items-center">
-            <h3 class="text-center font-bold lg:text-6xl text-grey6 mb-4">A barn house of this design has a <br> striking appearance</h3>
+            <h3 class="text-center font-extrabold text-3xl lg:text-5xl text-grey6 mb-4">A barn house of this design has a <br class="hidden lg:block"> striking appearance</h3>
             <p class="text-center text-sm font-normal text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern sophistication, 
               featuring weathered wood, sleek metal <br class="hidden lg:block"> accents, and large windows that flood the space 
               with natural light.</p>
@@ -89,7 +92,60 @@
       </section>
    </header>
    </section>
-    <main class="">
+   <!-- DaisyUI Hero -->
+    <main class="w-full bg-white-somke">
+      <section class="mx-auto px-2 lg:px-20 pt-4 lg:pt-14">
+        <div class="hero min-h-screen">
+          <div class="hero-content grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+            <div class="col-start-1 h-full relative ">
+              <img src="./assets/Vector.png" class="absolute -left-12 -top-12 hidden lg:block" alt="">
+              <div class="flex justify-center lg:justify-start">
+                <a class="btn rounded-full font-bold bg-base-100 mx:w-4/8"> <i class="fa-solid fa-arrow-right"></i>
+                  About Us
+                  <span class="text-sm px-2 py-1 rounded-full text-white  origin-center -rotate-45 font-extralight"></span>
+                </i></a>
+              </div>
+              <h1 class="text-2xl lg:text-4xl font-extrabold py-6 text-center lg:text-left">We design thoughtful, <br> liveable spaces!</h1>
+              <p class="mb-6 text-md text-gray-600 text-center lg:text-left">
+                The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+              <!-- daisyUI cards -->
+              <div class="card card-side bg-base-100 shadow-sm mb-6">
+                <figure>
+                  <img
+                    src="./assets/commercial.png"
+                    alt="Movie" class="pl-6" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-extrabold">Commercial</h2>
+                  <p class="text-sm">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+              </div>
+              <div class="card card-side bg-base-100 shadow-sm ">
+                <figure>
+                  <img src="./assets/residential.png"
+                    alt="Movie" class="pl-6" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-extrabold">Residential</h2>
+                  <p class="text-sm">The barn house captivates with its blend <br> of rustic charm and modern..</p>
+                </div>
+              </div>
+            </div>
+            <!-- Hero Image -->
+            <div class="flex justify-center lg:justify-end">
+              <img
+              src="./assets/Rectangle.png "
+              class="max-w-9/12 lg:max-w-full rounded-lg shadow-2xl " />
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <section>
+
+      </section>
 
     </main>
     <footer>
