@@ -280,39 +280,61 @@
       </div>
     </section>
     <!-- Extra Section -->
-     <section class="mx-auto px-6 lg:px-20 py-10">
-      <div class="grid justify-center">
-        <button class="btn rounded-full bg-gradient-to-r  from-lime-100 to-lime-100 
-              w-full lg:w-52 font-bold justify-center">
-              <span class="text-sm px-2 py-1 rounded-full origin-center text-black">
-                <i class="fa-solid fa-arrow-right"></i></span>
-               <span class="text-black pr-4">More about us!</span>
-             </i></button>
-            </div>
-            <h2 class="text-4xl font-extrabold text-center py-4">Frequently Asked Questions</h2>
-            <p class="text-sm text-slate-600 font-semibold text-center mb-8">Here are som questions answered below which people ask frequently<br>
-              We hope these may help you learn more about us.</p>
-              <div class="flex justify-center">
-                <div class="join join-vertical bg-base-100 ">
-                  <div class="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" checked="checked" />
-                    <div class="collapse-title font-semibold">How do I create an account?</div>
-                    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
-                  </div>
-                  <div class="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
-                    <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
-                  </div>
-                  <div class="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div class="collapse-title font-semibold">How do I update my profile information?</div>
-                    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+
+     <section class="w-full bg-my-8 bg-gradient-to-b  from-gray-50 to-gray-200 py-10">
+      <div class="mx-auto px-6 lg:px-20 py-10">
+        <div class="grid justify-center">
+          <button class="btn rounded-full bg-gradient-to-r  from-lime-100 to-lime-100 
+                w-full lg:w-52 font-bold justify-center">
+                <span class="text-sm px-2 py-1 rounded-full origin-center text-black">
+                  <i class="fa-solid fa-arrow-right"></i></span>
+                 <span class="text-black pr-4">More about us!</span>
+               </i></button>
+              </div>
+              <h2 class="text-4xl font-extrabold text-center py-4">Frequently Asked Questions</h2>
+              <p class="text-sm text-slate-600 font-semibold text-center mb-8">Here are som questions answered below which people ask frequently<br>
+                We hope these may help you learn more about us.</p>
+                <div class="flex justify-center">
+                  <div class="join join-vertical bg-base-100 ">
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" checked="checked" />
+                      <div class="collapse-title font-semibold">How do I create an account on <span class="font-extrabold">RINTERIO</span>?</div>
+                      <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div class="collapse-title font-semibold">I forgot my house design. What should I do?</div>
+                      <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div class="collapse-title font-semibold">How do I update my land information?</div>
+                      <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+                    </div>
                   </div>
                 </div>
               </div>
-
+                   <!-- Modal -->
+     <section class="flex justify-center">
+      <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-soft btn-soft btn-secondary rounded-full bg-gradient-to-r from-red-400 to-purple-200" onclick="my_modal_5.showModal()">
+  <span class="text-sm px-2 py-1 rounded-full origin-center text-yellow-50">
+    <i class="fa-solid fa-arrow-right"></i></span>Click Here!</button>
+  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box">
+      <h3 class="text-lg font-bold">Hello!</h3>
+      <p class="py-4">Press ESC key or click the button below to close</p>
+      <div class="modal-action">
+        <form method="dialog">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn bg-teal-500">Close</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
      </section>
+     </section>
+
     <!-- Form Section -->
     <section >
         <div class="bg-[url(./assets/bg.jpg)] w-full bg-cover py-4">
@@ -340,8 +362,7 @@
               </fieldset>
               <fieldset class="fieldset py-3">
                 <input type="text" class="input rounded-3xl   w-full" placeholder="My awesome page" />
-              </fieldset>
-              
+              </fieldset>             
             </div>
             <!-- Text Area -->
             <textarea class="textarea w-full h-40 rounded-3xl my-4" placeholder="Bio"></textarea>
@@ -353,8 +374,32 @@
           </div>
       </div> 
     </section>
-    <footer>
-
-    </footer>
+    <!-- Footer Section -->
+ <section class="mx-auto px-4 lg:px-52 bg-neutral">
+  <footer class="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content py-10 lg:py-20">
+      <div class=" flex -mb-6 gap-0.5">
+       <span class="text-sm px-2 py-1 rounded-full origin-center 
+       -rotate-45 bg-barn-primary font-extralight text-black">
+        <i class="fa-solid fa-arrow-right"></i></span>
+        <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
+      </div>
+      <p class="text-sm text-gray-400 font-light">
+        The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+         featuring weathered wood, sleek metal accents.
+      </p>
+    <nav class="navbar-center flex flex-col lg:flex-row gap:6 lg:gap-16 text-md">
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+      <a class="link link-hover">About Us</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <div class="lg:flex justify-center">
+      <a class="btn rounded-full bg-barn-primary font-bold">Book Consult
+        <span class="text-sm px-2 py-1 rounded-full text-white bg-slate-900 origin-center -rotate-45 font-extralight"><i class="fa-solid fa-arrow-right"></i></span>
+      </i></a>
+    </div>
+  </footer>
+ </section>
 </body>
 </html>
